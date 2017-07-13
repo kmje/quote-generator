@@ -1,0 +1,49 @@
+body{
+  background:#ff5733;
+}
+h1{
+  font-family: 'Lobster', cursive;
+  color: white;
+  /*margin-bottom: -.85em;
+  margin-right: 9em;*/
+  font-size: 400%;
+  
+}
+.container {
+ 
+  background: white;
+  border-radius: 0.5em;
+  margin: auto auto;
+  width: ;
+  font-family: 'Maitree', serif;
+  font-size: 2.30em;
+  
+
+}
+
+.quote-btn {
+  
+  color: white;
+  border-radius: 9em;
+  text-decoration: none;
+  background: #000000;
+  border:none;
+  font-family: 'Maitree', serif;
+  line-height: 2;
+  margin-top: 2em;
+}
+
+#tweet_quote{
+  
+  color: white;
+  border-radius: 1em;
+  text-decoration: none;
+  background: #000000;
+  border:none;
+  font-family: 'Maitree', serif;
+ 
+}
+
+@media only screen and (max-width: 500px) {
+body { font-size:70%;}
+}
