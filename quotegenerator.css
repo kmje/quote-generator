@@ -1,5 +1,6 @@
 body{
   background:#ff5733;
+        
 }
 h1{
   font-family: 'Lobster', cursive;
@@ -33,7 +34,7 @@ h1{
   margin-top: 2em;
 }
 
-#tweet_quote{
+.tweet_quote{
   
   color: white;
   border-radius: 1em;
@@ -41,7 +42,12 @@ h1{
   background: #000000;
   border:none;
   font-family: 'Maitree', serif;
+    
  
+}
+img {
+    width: 60px !important;
+    height: 60px !important;
 }
 
 @media only screen and (max-width: 500px) {
