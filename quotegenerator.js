@@ -10,8 +10,8 @@ var generateQuote = function() {
 
     document.getElementById('show_author').innerHTML = displayAuthor;
 
-    quoteText = displayQuote+' – '+ displayAuthor;
-    $('body').css('background-color',change_color);
+    quoteText = displayQuote+"- "+ displayAuthor;
+    $('body').css('background-color', change_color);
   return quoteText;
   });
     
@@ -26,7 +26,8 @@ var change_color = function() {
     
     return color; 
 }
+
 var tweetQuote = function() {
   
-  window.open('https://twitter.com/share?'  + '&text=' + quoteText);
+  window.open('https://twitter.com/share?&text=' + quoteText);
 }
